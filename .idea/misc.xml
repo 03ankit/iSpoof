@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android project/iSpoof/app/src/main/res/drawable/background_color.xml" value="0.1245" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/drawable/cancelbutton.xml" value="0.1245" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/drawable/copy_outer_line.xml" value="0.23796296296296296" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/drawable/delete.xml" value="0.23796296296296296" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/drawable/delete_outer_line.xml" value="0.23796296296296296" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/drawable/dialerbutton.xml" value="0.24074074074074073" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/drawable/dtmf_list_number.xml" value="0.23796296296296296" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/drawable/ic_clear_all.xml" value="0.24074074074074073" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/layout/activity_bottom_nav.xml" value="0.25" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/layout/activity_dtmf_list.xml" value="0.25" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/layout/activity_end_call_display.xml" value="0.264" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/layout/activity_splash.xml" value="0.24682971014492755" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/layout/call_log_singlerow.xml" value="0.264" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/layout/contact_single_row.xml" value="0.25" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/layout/dtmf_list.xml" value="0.16822916666666668" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/layout/dtmf_signal_list.xml" value="0.4" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/layout/dtmfdialer.xml" value="0.25" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/layout/fragment_call_log.xml" value="0.25" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/layout/fragment_change_caller_id.xml" value="0.264" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/layout/fragment_contacts.xml" value="0.25" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/layout/fragment_dialer.xml" value="0.264" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/layout/fragment_set_caller_id.xml" value="0.176" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/layout/fragment_set_id.xml" value="0.264" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/menu/clearall_menu.xml" value="0.25" />
+        <entry key="..\:/android project/iSpoof/app/src/main/res/menu/menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

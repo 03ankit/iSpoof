@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textViewNumber"
+            android:layout_width="45dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/dtmf_list_number"
+            android:gravity="center_horizontal"
+            android:text="1"
+            android:textAlignment="center"
+            android:textColor="#172c49"
+            android:layout_marginLeft="8dp"
+            android:textSize="30dp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Dtmfview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif"
+                android:letterSpacing="0.01"
+                android:text="436#098891"
+                android:layout_marginLeft="9dp"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:textStyle="normal" />
+
+
+
+            <TextView
+                android:id="@+id/DtmfView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:letterSpacing="0.01"
+                android:text="12 Jan 2022 17:10:00"
+                android:layout_marginLeft="9dp"
+                android:textColor="#4c5d74"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/copy_outer_line"
+                    android:layout_marginRight="6dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/Dtmfcopy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    app:layout_anchor="@+id/imageView4"
+                    app:layout_anchorGravity="center"
+                    app:srcCompat="@drawable/copy"
+                    />
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+                <ImageView
+                    android:id="@+id/delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/delete_outer_line"
+                    android:layout_marginRight="7dp" />
+
+                <ImageView
+                    android:id="@+id/Dtmfdelete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    app:layout_anchor="@+id/delete"
+                    app:layout_anchorGravity="center"
+                    app:srcCompat="@drawable/delete" />
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginBottom="5dp"
+        android:alpha="0.3"
+        android:background="@color/grey" />
+
+</LinearLayout>

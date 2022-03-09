@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".set_id"
+    android:background="@drawable/background_image"
+    android:gravity="center"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_gravity="center"
+        />
+
+
+    <EditText
+        android:id="@+id/sipUsername"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-light"
+        android:letterSpacing="0.01"
+        android:text="283494"
+        android:hint="SIP Username"
+        android:background="@null"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textColorHint="@color/grey"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="70dp"
+       />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"
+        android:layout_marginLeft="10dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintEnabled="false"
+        android:layout_marginTop="20dp"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/white"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/sipPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif-light"
+            android:letterSpacing="0.01"
+            android:text="oHepJrL"
+            android:hint="SIP Password"
+            android:textColor="@color/white"
+            android:inputType="textPassword"
+            android:background="@null"
+            android:textSize="20sp"
+            android:textColorHint="@color/grey"
+            android:paddingLeft="20dp"
+           />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"
+        android:layout_marginLeft="10dp"/>
+
+
+    <EditText
+        android:id="@+id/sipDomain"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:fontFamily="sans-serif-light"
+        android:text="45.129.230.87"
+        android:hint="SIP Domain"
+        android:textColor="@color/white"
+        android:letterSpacing="0.01"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/grey"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="1dp"/>
+
+    <Button
+        android:id="@+id/signButton"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="80dp"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:background="@drawable/save_changesbutton"/>
+
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    </TextView>
+
+
+
+
+</LinearLayout>

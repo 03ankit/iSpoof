@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <item
+        android:id="@+id/nav_call"
+        android:title="call"
+        android:icon="@drawable/phone_log"
+        />
+    <item
+        android:id="@+id/nav_accountbox"
+        android:title="DTMF"
+        android:icon="@drawable/dtmf_inactive" />
+    <item
+        android:id="@+id/nav_dial"
+        android:title="dial"
+        android:icon="@drawable/dialpad_1"
+       />
+    <item
+        android:id="@+id/nav_contactphone"
+        android:title="contactphone"
+        android:icon="@drawable/card_account_phone_outline" />
+    <item
+        android:id="@+id/nav_setting"
+        android:title="setting"
+        android:icon="@drawable/cog_outline" />
+
+
+</menu>
